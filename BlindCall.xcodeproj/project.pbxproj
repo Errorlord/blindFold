@@ -1,0 +1,694 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04215B51223E12E00098635D /* CountdownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04215B50223E12E00098635D /* CountdownViewController.swift */; };
+		04C7B83B223EAB9D008FDD95 /* InviteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C7B83A223EAB9D008FDD95 /* InviteViewController.swift */; };
+		0D0C97653D7F9CE10E271D38 /* Pods_BlindCall.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D7968E0865777147D6EBFAE /* Pods_BlindCall.framework */; };
+		BA4BAF8B223D713D0064F89A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4BAF8A223D713D0064F89A /* AppDelegate.swift */; };
+		BA4BAF8D223D713D0064F89A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4BAF8C223D713D0064F89A /* ViewController.swift */; };
+		BA4BAF90223D713D0064F89A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA4BAF8E223D713D0064F89A /* Main.storyboard */; };
+		BA4BAF92223D713E0064F89A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA4BAF91223D713E0064F89A /* Assets.xcassets */; };
+		BA4BAF95223D713E0064F89A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA4BAF93223D713E0064F89A /* LaunchScreen.storyboard */; };
+		BA4BAFA0223D713E0064F89A /* BlindCallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4BAF9F223D713E0064F89A /* BlindCallTests.swift */; };
+		BA4BAFAB223D713E0064F89A /* BlindCallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4BAFAA223D713E0064F89A /* BlindCallUITests.swift */; };
+		BA4BAFBA223DA5C20064F89A /* CustomImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4BAFB9223DA5C20064F89A /* CustomImage.swift */; };
+		BA4BAFBD223DA6E30064F89A /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4BAFBC223DA6E30064F89A /* Globals.swift */; };
+		BA4BAFBF223DC1C60064F89A /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4BAFBE223DC1C60064F89A /* RegisterViewController.swift */; };
+		BA6EAB38223E04470031E9A8 /* TimeWagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6EAB37223E04470031E9A8 /* TimeWagerViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA4BAF9C223D713E0064F89A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA4BAF7F223D713D0064F89A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA4BAF86223D713D0064F89A;
+			remoteInfo = BlindCall;
+		};
+		BA4BAFA7223D713E0064F89A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA4BAF7F223D713D0064F89A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA4BAF86223D713D0064F89A;
+			remoteInfo = BlindCall;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04215B50223E12E00098635D /* CountdownViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownViewController.swift; sourceTree = "<group>"; };
+		04C7B83A223EAB9D008FDD95 /* InviteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InviteViewController.swift; path = ../../../../../../var/folders/2v/2j797bvj6lq3j4cl_9449gcw0000gn/T/com.apple.iChat/Messages/Transfers/InviteViewController.swift; sourceTree = "<group>"; };
+		2B6E61B90E36F7F9D0CA2793 /* Pods-BlindCall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlindCall.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlindCall/Pods-BlindCall.debug.xcconfig"; sourceTree = "<group>"; };
+		7D7968E0865777147D6EBFAE /* Pods_BlindCall.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlindCall.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A41ACA96EFB8674143E6AC40 /* Pods-BlindCall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlindCall.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlindCall/Pods-BlindCall.release.xcconfig"; sourceTree = "<group>"; };
+		BA4BAF87223D713D0064F89A /* BlindCall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlindCall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA4BAF8A223D713D0064F89A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA4BAF8C223D713D0064F89A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BA4BAF8F223D713D0064F89A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA4BAF91223D713E0064F89A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA4BAF94223D713E0064F89A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA4BAF96223D713E0064F89A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA4BAF9B223D713E0064F89A /* BlindCallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlindCallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA4BAF9F223D713E0064F89A /* BlindCallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlindCallTests.swift; sourceTree = "<group>"; };
+		BA4BAFA1223D713E0064F89A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA4BAFA6223D713E0064F89A /* BlindCallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlindCallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA4BAFAA223D713E0064F89A /* BlindCallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlindCallUITests.swift; sourceTree = "<group>"; };
+		BA4BAFAC223D713E0064F89A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA4BAFB9223DA5C20064F89A /* CustomImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImage.swift; sourceTree = "<group>"; };
+		BA4BAFBC223DA6E30064F89A /* Globals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		BA4BAFBE223DC1C60064F89A /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegisterViewController.swift; path = ../../../../Downloads/RegisterViewController.swift; sourceTree = "<group>"; };
+		BA6EAB37223E04470031E9A8 /* TimeWagerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimeWagerViewController.swift; path = ../../../../Downloads/TimeWagerViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA4BAF84223D713D0064F89A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D0C97653D7F9CE10E271D38 /* Pods_BlindCall.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA4BAF98223D713E0064F89A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA4BAFA3223D713E0064F89A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA4BAF7E223D713D0064F89A = {
+			isa = PBXGroup;
+			children = (
+				BA4BAF89223D713D0064F89A /* BlindCall */,
+				BA4BAF9E223D713E0064F89A /* BlindCallTests */,
+				BA4BAFA9223D713E0064F89A /* BlindCallUITests */,
+				BA4BAF88223D713D0064F89A /* Products */,
+				E388DF1719DE975061C4798A /* Pods */,
+				F33AD62E7A5ED291157D0BB5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BA4BAF88223D713D0064F89A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA4BAF87223D713D0064F89A /* BlindCall.app */,
+				BA4BAF9B223D713E0064F89A /* BlindCallTests.xctest */,
+				BA4BAFA6223D713E0064F89A /* BlindCallUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA4BAF89223D713D0064F89A /* BlindCall */ = {
+			isa = PBXGroup;
+			children = (
+				BA4BAFB8223DA5970064F89A /* Custom Views */,
+				BA4BAF8A223D713D0064F89A /* AppDelegate.swift */,
+				BA4BAFBE223DC1C60064F89A /* RegisterViewController.swift */,
+				BA4BAF8C223D713D0064F89A /* ViewController.swift */,
+				BA6EAB37223E04470031E9A8 /* TimeWagerViewController.swift */,
+				BA4BAF8E223D713D0064F89A /* Main.storyboard */,
+				BA4BAF91223D713E0064F89A /* Assets.xcassets */,
+				BA4BAF93223D713E0064F89A /* LaunchScreen.storyboard */,
+				BA4BAF96223D713E0064F89A /* Info.plist */,
+				BA4BAFBC223DA6E30064F89A /* Globals.swift */,
+				04215B50223E12E00098635D /* CountdownViewController.swift */,
+				04C7B83A223EAB9D008FDD95 /* InviteViewController.swift */,
+			);
+			path = BlindCall;
+			sourceTree = "<group>";
+		};
+		BA4BAF9E223D713E0064F89A /* BlindCallTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA4BAF9F223D713E0064F89A /* BlindCallTests.swift */,
+				BA4BAFA1223D713E0064F89A /* Info.plist */,
+			);
+			path = BlindCallTests;
+			sourceTree = "<group>";
+		};
+		BA4BAFA9223D713E0064F89A /* BlindCallUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA4BAFAA223D713E0064F89A /* BlindCallUITests.swift */,
+				BA4BAFAC223D713E0064F89A /* Info.plist */,
+			);
+			path = BlindCallUITests;
+			sourceTree = "<group>";
+		};
+		BA4BAFB8223DA5970064F89A /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				BA4BAFB9223DA5C20064F89A /* CustomImage.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		E388DF1719DE975061C4798A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B6E61B90E36F7F9D0CA2793 /* Pods-BlindCall.debug.xcconfig */,
+				A41ACA96EFB8674143E6AC40 /* Pods-BlindCall.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F33AD62E7A5ED291157D0BB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D7968E0865777147D6EBFAE /* Pods_BlindCall.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA4BAF86223D713D0064F89A /* BlindCall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA4BAFAF223D713E0064F89A /* Build configuration list for PBXNativeTarget "BlindCall" */;
+			buildPhases = (
+				D6F8230DB3526DB1750C9774 /* [CP] Check Pods Manifest.lock */,
+				BA4BAF83223D713D0064F89A /* Sources */,
+				BA4BAF84223D713D0064F89A /* Frameworks */,
+				BA4BAF85223D713D0064F89A /* Resources */,
+				03F72E87CB7A430F907B2573 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlindCall;
+			productName = BlindCall;
+			productReference = BA4BAF87223D713D0064F89A /* BlindCall.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA4BAF9A223D713E0064F89A /* BlindCallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA4BAFB2223D713E0064F89A /* Build configuration list for PBXNativeTarget "BlindCallTests" */;
+			buildPhases = (
+				BA4BAF97223D713E0064F89A /* Sources */,
+				BA4BAF98223D713E0064F89A /* Frameworks */,
+				BA4BAF99223D713E0064F89A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA4BAF9D223D713E0064F89A /* PBXTargetDependency */,
+			);
+			name = BlindCallTests;
+			productName = BlindCallTests;
+			productReference = BA4BAF9B223D713E0064F89A /* BlindCallTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA4BAFA5223D713E0064F89A /* BlindCallUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA4BAFB5223D713E0064F89A /* Build configuration list for PBXNativeTarget "BlindCallUITests" */;
+			buildPhases = (
+				BA4BAFA2223D713E0064F89A /* Sources */,
+				BA4BAFA3223D713E0064F89A /* Frameworks */,
+				BA4BAFA4223D713E0064F89A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA4BAFA8223D713E0064F89A /* PBXTargetDependency */,
+			);
+			name = BlindCallUITests;
+			productName = BlindCallUITests;
+			productReference = BA4BAFA6223D713E0064F89A /* BlindCallUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA4BAF7F223D713D0064F89A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Nadith Dharmasena";
+				TargetAttributes = {
+					BA4BAF86223D713D0064F89A = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					BA4BAF9A223D713E0064F89A = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = BA4BAF86223D713D0064F89A;
+					};
+					BA4BAFA5223D713E0064F89A = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = BA4BAF86223D713D0064F89A;
+					};
+				};
+			};
+			buildConfigurationList = BA4BAF82223D713D0064F89A /* Build configuration list for PBXProject "BlindCall" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA4BAF7E223D713D0064F89A;
+			productRefGroup = BA4BAF88223D713D0064F89A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA4BAF86223D713D0064F89A /* BlindCall */,
+				BA4BAF9A223D713E0064F89A /* BlindCallTests */,
+				BA4BAFA5223D713E0064F89A /* BlindCallUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA4BAF85223D713D0064F89A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA4BAF95223D713E0064F89A /* LaunchScreen.storyboard in Resources */,
+				BA4BAF92223D713E0064F89A /* Assets.xcassets in Resources */,
+				BA4BAF90223D713D0064F89A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA4BAF99223D713E0064F89A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA4BAFA4223D713E0064F89A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03F72E87CB7A430F907B2573 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlindCall/Pods-BlindCall-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BlindCall/Pods-BlindCall-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6F8230DB3526DB1750C9774 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlindCall-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA4BAF83223D713D0064F89A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C7B83B223EAB9D008FDD95 /* InviteViewController.swift in Sources */,
+				04215B51223E12E00098635D /* CountdownViewController.swift in Sources */,
+				BA6EAB38223E04470031E9A8 /* TimeWagerViewController.swift in Sources */,
+				BA4BAFBD223DA6E30064F89A /* Globals.swift in Sources */,
+				BA4BAFBF223DC1C60064F89A /* RegisterViewController.swift in Sources */,
+				BA4BAF8D223D713D0064F89A /* ViewController.swift in Sources */,
+				BA4BAF8B223D713D0064F89A /* AppDelegate.swift in Sources */,
+				BA4BAFBA223DA5C20064F89A /* CustomImage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA4BAF97223D713E0064F89A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA4BAFA0223D713E0064F89A /* BlindCallTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA4BAFA2223D713E0064F89A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA4BAFAB223D713E0064F89A /* BlindCallUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA4BAF9D223D713E0064F89A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA4BAF86223D713D0064F89A /* BlindCall */;
+			targetProxy = BA4BAF9C223D713E0064F89A /* PBXContainerItemProxy */;
+		};
+		BA4BAFA8223D713E0064F89A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA4BAF86223D713D0064F89A /* BlindCall */;
+			targetProxy = BA4BAFA7223D713E0064F89A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA4BAF8E223D713D0064F89A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA4BAF8F223D713D0064F89A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA4BAF93223D713E0064F89A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA4BAF94223D713E0064F89A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA4BAFAD223D713E0064F89A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA4BAFAE223D713E0064F89A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA4BAFB0223D713E0064F89A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B6E61B90E36F7F9D0CA2793 /* Pods-BlindCall.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BlindCall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nadithdharmasena.BlindCall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA4BAFB1223D713E0064F89A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A41ACA96EFB8674143E6AC40 /* Pods-BlindCall.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BlindCall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nadithdharmasena.BlindCall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BA4BAFB3223D713E0064F89A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BlindCallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nadithdharmasena.BlindCallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlindCall.app/BlindCall";
+			};
+			name = Debug;
+		};
+		BA4BAFB4223D713E0064F89A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BlindCallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nadithdharmasena.BlindCallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlindCall.app/BlindCall";
+			};
+			name = Release;
+		};
+		BA4BAFB6223D713E0064F89A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BlindCallUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nadithdharmasena.BlindCallUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BlindCall;
+			};
+			name = Debug;
+		};
+		BA4BAFB7223D713E0064F89A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BlindCallUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nadithdharmasena.BlindCallUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BlindCall;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA4BAF82223D713D0064F89A /* Build configuration list for PBXProject "BlindCall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA4BAFAD223D713E0064F89A /* Debug */,
+				BA4BAFAE223D713E0064F89A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA4BAFAF223D713E0064F89A /* Build configuration list for PBXNativeTarget "BlindCall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA4BAFB0223D713E0064F89A /* Debug */,
+				BA4BAFB1223D713E0064F89A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA4BAFB2223D713E0064F89A /* Build configuration list for PBXNativeTarget "BlindCallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA4BAFB3223D713E0064F89A /* Debug */,
+				BA4BAFB4223D713E0064F89A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA4BAFB5223D713E0064F89A /* Build configuration list for PBXNativeTarget "BlindCallUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA4BAFB6223D713E0064F89A /* Debug */,
+				BA4BAFB7223D713E0064F89A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA4BAF7F223D713D0064F89A /* Project object */;
+}
